@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="temperature.js"></script>
+</head>
+<body>
+<script>
+    let temperature = new Temperature(25);
+    let celcius = temperature.celcius;
+    let f = celcius * 9 / 5 + 32;
+    let kelvin = celcius + 273.15;
+    alert(celcius+ " degree C = " + f + "độ F" + " and = " +kelvin +' degree Kelvin')
+</script>
+</body>
+</html>
